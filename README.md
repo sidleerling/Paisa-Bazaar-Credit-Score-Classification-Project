@@ -124,7 +124,7 @@ The optimized Random Forest model was serialized using `Joblib` and integrated i
 - Displays a **Prediction Confidence Breakdown** to communicate model uncertainty transparently.
 
 🔗 **Live Application Links:**
-- [Hugging Face Space - Paisabazaar Credit Score Predictor](https://huggingface.co/spaces/Sidlyer/Paisabazaar%20Credit%20Score%20Predictor)
+- [Hugging Face Space - Paisabazaar Credit Score Predictor](https://huggingface.co/spaces/SidIyer/Paisabazaar_Credit_Score_Predictor)
 
 ---
 
