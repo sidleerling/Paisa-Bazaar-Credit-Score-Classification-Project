@@ -91,4 +91,45 @@ Key patterns and business insights derived from data visualizations:
 
 ## Model Training & Evaluation
 
-Three classification models were trained and evaluated on metrics including **Accuracy, Precision, Recall, and F1
+Three classification models were trained and evaluated on metrics including **Accuracy, Precision, Recall, and F1-Score**:
+
+| Model | Accuracy Score | Key Observations |
+| :--- | :---: | :--- |
+| **Logistic Regression** | 64.8% | Served as a fast, interpretable baseline model. |
+| **Decision Tree Classifier** | 71.1% | Handled non-linear interactions well and proved robust to outliers. |
+| **Random Forest Classifier** | **80.8%** | **Best performing model**, significantly outperforming others across all classes by capturing complex feature interactions. |
+
+---
+
+## ⚙️ Model Tuning
+
+The **Random Forest Classifier** was selected for further refinement:
+- **Feature Selection:** Applied `SelectKBest` (using Chi-Squared test) alongside domain knowledge to distill down to 14 optimal features.
+- **Hyperparameter Tuning:** Utilized `RandomizedSearchCV` to optimize parameters like `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf`.
+- **Tuned Model Performance:** Achieved an improved accuracy of **81.5%** with better precision/recall balance and lower false-negative rates for minority classes.
+
+---
+
+## 🚀 App Deployment & Live Demo
+
+The optimized Random Forest model was serialized using `Joblib` and integrated into an interactive web application built with **Gradio**. 
+
+### App Features:
+- Clean UI sliders and dropdown fields for entering financial parameters.
+- Predicts final credit score category (*Poor*, *Standard*, or *Good*).
+- Displays a **Prediction Confidence Breakdown** to communicate model uncertainty transparently.
+
+🔗 **Live Application Links:**
+- [Hugging Face Space - Paisabazaar Credit Score Predictor](https://huggingface.co/spaces/Sidlyer/Paisabazaar%20Credit%20Score%20Predictor)
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── dataset/                      # Dataset files (if applicable)
+├── models/                       # Saved model checkpoints (.pkl / joblib)
+├── app.py                        # Gradio web application script
+├── requirements.txt              # Required python dependencies
+├── Credit_Score_Prediction.ipynb # Jupyter Notebook containing complete EDA & modeling code
+└── README.md                     # Project documentation
