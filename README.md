@@ -1,7 +1,5 @@
 # Paisa-Bazaar-Credit-Score-Classification-Project
 
-# Paisabazaar Credit Score Classification & Prediction App
-
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-orange.svg)](https://scikit-learn.org/)
 [![Gradio](https://img.shields.io/badge/Gradio-App-brightgreen.svg)](https://gradio.app/)
