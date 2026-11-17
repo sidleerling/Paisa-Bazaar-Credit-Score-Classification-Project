@@ -1,5 +1,9 @@
 # Paisa-Bazaar-Credit-Score-Classification-Project
 
+<p align="center">
+  <img src="Paisa Bazaar logo.jpg" alt="Paisa Bazaar Logo" width="300"/>
+</p>
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Classification-orange.svg)](https://scikit-learn.org/)
 [![Gradio](https://img.shields.io/badge/Gradio-App-brightgreen.svg)](https://gradio.app/)
