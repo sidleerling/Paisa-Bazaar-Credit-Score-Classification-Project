@@ -1,7 +1,7 @@
 # Paisa-Bazaar-Credit-Score-Classification-Project
 
 <p align="center">
-  <img src="Paisa Bazaar logo.jpg" alt="Paisa Bazaar Logo" width="1000" height="300"/>
+  <img src="Paisa Bazaar logo.jpg" alt="Paisa Bazaar Logo" width="1000" height="400"/>
 </p>
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
